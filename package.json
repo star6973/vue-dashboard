@@ -11,6 +11,7 @@
     "format": "prettier --write \"src/**/*.{js,ts,vue,json,css,scss,md}\""
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.18",
     "axios": "^1.13.2",
     "dayjs": "^1.11.19",
     "pinia": "^3.0.4",
@@ -35,6 +36,8 @@
     "prettier": "^3.7.4",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.50.1",
+    "unplugin-auto-import": "^20.3.0",
+    "unplugin-vue-components": "^30.0.0",
     "vite": "^7.2.4",
     "vue-tsc": "^3.1.4"
   }

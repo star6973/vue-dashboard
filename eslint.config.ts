@@ -58,6 +58,9 @@ export default tseslint.config(
 
       // 콘솔 로그 남기기 (프로덕션에서는 경고)
       "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
+
+      // AutoImport 대신 사용
+      "no-undef": "off",
     },
   },
 
